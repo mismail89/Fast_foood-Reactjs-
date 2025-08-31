@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './home.css'
 import Header from '../../components/header/Header'
-import ExploreMenu from '../../components/exploreMenu/exploreMenu'
+import ExploreMenu from '../../components/exploreMenu/ExploreMenu'
 import FoodDisplay from '../../components/foodDisplay/FoodDisplay'
 import AppDownload from '../../components/AppDownload/AppDownload'
 const Home = () => {
@@ -15,5 +15,6 @@ const Home = () => {
     </div>
   )
 }
+
 
 export default Home
